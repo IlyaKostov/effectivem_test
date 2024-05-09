@@ -2,7 +2,7 @@ from datetime import datetime
 from typing import Any, Callable
 
 from src.financial_wallet import FinancialWallet
-from src.operation_validator import OperationValidator
+from src.operation_validators import OperationValidator
 
 
 def display_operation_info(result: dict[str, Any]) -> None:
